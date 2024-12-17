@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <>
       <Nasta />
+      <Tasya />
       <Josh />
       <Stella />
-      <Tasya />
     </>
   );
 }
