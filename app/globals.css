@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font */
+@font-face {
+  font-family: "piximisa";
+  src: url("../public/fonts/Piximisa.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "primeformRegular";
+  src: url("../public/fonts/PrimeformProDemo-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "primeformRegular";
+  src: url("../public/fonts/PrimeformProDemo-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "primeformSemiBold";
+  src: url("../public/fonts/PrimeformProDemo-SemiBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "primeformSemiBold";
+  src: url("../public/fonts/PrimeformProDemo-SemiBold.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "primeformBold";
+  src: url("../public/fonts/PrimeformProDemo-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "primeformBold";
+  src: url("../public/fonts/PrimeformProDemo-Bold.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  .outline-404 {
+    -webkit-text-stroke: 1px black;
+  }
+}
+
+/* Custom Scrollbar for >= lg screens */
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+    fill-opacity: 20;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0f5712;
+    border-radius: 10px;
+    /* border: 0.5px solid #006582; Adding border to the scrollbar thumb */
+  }
+}
+
+/* Hide scrollbar for < lg screens */
+@media (max-width: 767px) {
+  /* For Webkit (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* For Firefox */
+  html {
+    scrollbar-width: none;
+  }
+
+  /* For Internet Explorer and Edge */
+  body {
+    -ms-overflow-style: none;
+  }
+}
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
