@@ -1,21 +1,8 @@
-# Repositori IT Porsenigama 2024 Selesai!
-
-![Slewebz Porsenigama](slewebz.jpeg "Slewebz Porsenigama")
-
-## Credits
-
-- Emanuel Dananjaya Kusumadewa Biansa Dua
-- Polikarpus Arya Pradhanika
-- Ken Bima Satria Gandasasmita
-- Daffa Maulana Danendra
-- Andreandhiki Riyanta Putra
-- Argya Sabih Elysio
-- Harun
-- Muhammad Ernestiyo Guevara
+# Repositori Latihan (aiti nesco) ات نيسغوا
 
 ## Design
 
-https://www.figma.com/files/project/264728016
+https://www.figma.com/design/1t1te9RJJTeqgigBuFvXeG/Porsenigama-2024-(Copy)?node-id=403-2&t=ITWjlUa67fgnhLIa-1
 
 ## Pull & Push Schema
 
