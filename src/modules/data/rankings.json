@@ -1,0 +1,7 @@
+[
+  { "rank": 1, "fakultas": "Teknik", "gold": 10, "silver": 10, "bronze": 10 },
+  { "rank": 2, "fakultas": "MIPA", "gold": 10, "silver": 10, "bronze": 10 },
+  { "rank": 3, "fakultas": "Vokasi", "gold": 10, "silver": 10, "bronze": 10 },
+  { "rank": 4, "fakultas": "ISIPOL", "gold": 10, "silver": 10, "bronze": 10 },
+  { "rank": 5, "fakultas": "Kedokteran Hewan", "gold": 10, "silver": 10, "bronze": 10 }
+]
