@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import rankings from "./data/rankings.json";
 import results from "./data/results.json";
 import schedule from "./data/schedule.json";
@@ -15,8 +16,10 @@ export default function Nasta() {
       <nav className="fixed top-4 my-4 flex h-12 w-[90%] items-center justify-between rounded-full bg-white px-4 shadow-xl sm:h-16 md:w-3/4 md:px-6">
         <div className="w-24 sm:w-32 md:w-40">
           <Image
-            src="././images/logo-porsenigama.webp"
+            src="/images/logo-porsenigama.webp"
             alt="Logo Porsenigama"
+            width={0}
+            height={0}
             className="h-6 w-auto object-contain sm:h-8 md:h-10"
           />
         </div>
@@ -24,21 +27,23 @@ export default function Nasta() {
         <div className="hidden gap-4 md:gap-7 lg:flex">
           {["Jadwal", "Cabang", "Klasemen", "Kontingen", "Galeri", "Suporter", "FAQ"].map(
             (item) => (
-              <a
+              <Link
                 key={item}
                 href={`#${item.toLowerCase()}`}
                 className="text-base font-light text-black hover:text-slate-500 md:text-xl"
               >
                 {item}
-              </a>
+              </Link>
             ),
           )}
         </div>
         <div className="hidden lg:flex">
           <button type="submit" className="w-6 sm:w-8 md:w-10">
             <Image
-              src="././images/log.svg"
+              src="/images/log.svg"
               alt="Log Icon"
+              width={0}
+              height={0}
               className="h-auto w-full object-contain"
             />
           </button>
@@ -172,15 +177,19 @@ export default function Nasta() {
         <div className="flex w-full max-w-[300px] flex-col items-center justify-center gap-4 sm:max-w-[400px] md:max-w-[500px]">
           <div className="relative aspect-square w-full">
             <Image
-              src="././images/logo-porsenigama.png"
+              src="/images/logo-porsenigama.png"
               alt="Logo Porsenigama"
+              width={0}
+              height={0}
               className="h-full w-full object-contain"
             />
           </div>
           <div className="relative w-full" style={{ aspectRatio: "3/1" }}>
             <Image
-              src="././images/text-porsenigama.svg"
+              src="/images/text-porsenigama.svg"
               alt="Text Porsenigama"
+              width={0}
+              height={0}
               className="h-full w-full object-contain"
             />
           </div>
@@ -222,8 +231,10 @@ export default function Nasta() {
             >
               <div className="mb-5 aspect-square w-16 sm:w-20 md:w-24">
                 <Image
-                  src={`././images/${category.toLowerCase()}.svg`}
+                  src={`/images/${category.toLowerCase()}.svg`}
                   alt={category}
+                  width={0}
+                  height={0}
                   className="h-full w-full object-contain"
                 />
               </div>
