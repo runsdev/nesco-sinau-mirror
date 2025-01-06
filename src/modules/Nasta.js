@@ -97,10 +97,10 @@ export default function Nasta() {
       )}
 
       {/* Main Content */}
-      <div className="mt-[100px] flex w-full flex-col-reverse items-center gap-10 px-4 md:mt-[150px] md:gap-[100px] lg:flex-row lg:px-8">
-        <div className="flex w-full max-w-[500px] flex-col gap-3">
+      <div className="mt-[100px] flex w-full flex-col-reverse items-center justify-around gap-10 bg-[red] px-4 md:mt-[150px] md:gap-[100px] lg:w-[65%] lg:flex-row lg:px-[20px]">
+        <div className="flex w-full flex-col gap-3 bg-[green] lg:w-[40%]">
           {/* Klasemen Section */}
-          <div className="rounded-2xl bg-white px-4 py-[3%] md:px-[5%]">
+          <div className="w-full rounded-2xl bg-white px-4 py-[3%] md:px-[5%] md:py-[4px]">
             <h2 className="pb-4 text-lg font-bold md:text-xl">Klasemen Teratas</h2>
             <div className="overflow-x-auto">
               <table className="w-full">
@@ -174,7 +174,7 @@ export default function Nasta() {
         </div>
 
         {/* Logo Section */}
-        <div className="flex w-full max-w-[300px] flex-col items-center justify-center gap-4 sm:max-w-[400px] md:max-w-[500px]">
+        <div className="flex w-full flex-col items-center justify-center gap-4 md:w-[35%]">
           <div className="relative aspect-square w-full">
             <Image
               src="/images/logo-porsenigama.png"
